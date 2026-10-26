@@ -1,0 +1,8 @@
+node_modules/
+.venv/
+.work/
+out/
+profile.json
+*.log
+.DS_Store
+__pycache__/

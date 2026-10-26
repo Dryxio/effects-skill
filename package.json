@@ -1,0 +1,26 @@
+{
+  "name": "effects-skill",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "36 effets vidéo pour tes clips face caméra, rendus par Claude Code avec Remotion.",
+  "scripts": {
+    "studio": "remotion studio src/index.tsx",
+    "check": "tsc --noEmit",
+    "fx": "node scripts/effects.mjs"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.517",
+    "@remotion/cli": "4.0.517",
+    "@remotion/google-fonts": "4.0.517",
+    "@remotion/renderer": "4.0.517",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.517"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.0",
+    "@types/react": "19.2.2",
+    "typescript": "5.9.3"
+  }
+}
